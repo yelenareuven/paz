@@ -1,0 +1,139 @@
+/************************* reset************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****************************end reset**************************************/
+body{
+	background: white;
+	width:100%;
+	
+}
+.container{
+	max-width:900px;
+	margin: 0 auto;  /*********center div **need to be together*******/
+	display: block;  /*********center div **need to be together*******/
+}
+@media screen and (max-width:600px) {  /*********התאמה למסך שלי *******/
+	.container{
+	width: 100%;
+ }}
+/************************PROPERTY page*************div header**********************/
+header{
+	width: 100%;
+	background-color:rgb(128, 128, 128);
+	color:white;
+	float: left;
+}
+.inputTop{
+	float: left;
+	margin-top:4%;
+	margin-left: 2%;
+	direction:rtl;
+}
+.logo{
+	float: right;
+	width:20%;
+    margin-top:4%;
+}
+.menuTop{
+	float: right;
+	 margin-top:8%;
+	 width:80%;
+	 margin-top:4%;
+}
+.menuhed{
+	float: right;
+	width:14%;
+}
+a{
+	text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+/****************************divpic************************************/
+.class-box{
+	float: none;
+	clear:both;
+
+}
+/********************/
+.bgPic{
+	width:100%;
+    margin-top:2%;
+}
+.divLeft{
+	background-image:url("../image/1.jpg");
+	width:30%;
+	height: 353px;
+	float: left;
+	margin-right:5%;
+	background-repeat: no-repeat;
+}
+.divCenter{
+	background-image:url("../image/2.jpg");
+	width:30%;
+	height: 353px;
+	float: left;
+	background-repeat: no-repeat;
+}
+.divRight{
+	background-image:url("../image/3.jpg");
+	width:30%;
+	height: 353px;
+	float: left;
+	margin-left:5%;
+	background-repeat: no-repeat;
+}
+.picText{
+	margin-top:90%;
+	margin-left:18%;
+	text-align: right;
+	background-image:url("../image/bac.png");
+	height: 100px;
+	width:80%;
+	background-repeat: no-repeat;
+}
