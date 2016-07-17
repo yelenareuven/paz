@@ -48,12 +48,21 @@ table {
 body{
 	background: white;
 	width:100%;
+	font-family: 'Arial (Hebrew)', Arial;
+	float: right;
 	
 }
 .container{
 	max-width:900px;
-	margin: 0 auto;  /*********center div **need to be together*******/
-	display: block;  /*********center div **need to be together*******/
+	margin: 0 auto; /*********center div **need to be together*******/
+	display: block;
+	overflow: hidden;
+}
+.headcolor{
+		background-color:rgb(128, 128, 128);
+			height: 111.1px;
+			    position: absolute;
+			    width: 100%;
 }
 @media screen and (max-width:600px) {  /*********התאמה למסך שלי *******/
 	.container{
@@ -65,27 +74,65 @@ header{
 	background-color:rgb(128, 128, 128);
 	color:white;
 	float: left;
+	position: relative;
 }
+
 .inputTop{
 	float: left;
-	margin-top:4%;
-	margin-left: 2%;
+	margin-top:3%;
 	direction:rtl;
+	width: 34%;
+}
+.butSearch{
+	float: left;
+	}
+.texEng{
+		float:right;
+		padding:2%;
+		float:left;
+    	margin-left: 5%;
+    	padding-top: 1%;
+    	font-size: 84%;
+	}
+.butInp{
+		border:0;
+		margin: 0;
+		height: 19.1px;
+		padding:0;
+		float: left;
+	}
+.butSearch img{
+    width:100%;
 }
 .logo{
 	float: right;
 	width:20%;
     margin-top:4%;
+    position: absolute;
+    right: 0;
 }
 .menuTop{
 	float: right;
 	 margin-top:8%;
 	 width:80%;
 	 margin-top:4%;
+	 font-weight: bold;
+	 margin-right: 21%;
+}
+.homBut{
+	width: 3%;
+	height:15px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-left: 2%;
 }
 .menuhed{
 	float: right;
-	width:14%;
+	width:9%;
+}
+.menuhed1{
+	float: right;
+	width:16%;
 }
 a{
 	text-decoration: none;
@@ -93,17 +140,22 @@ a{
     text-transform: uppercase;
     display: block;
     text-align: center;
+text-transform: none;
 }
-/****************************divpic************************************/
-.class-box{
-	float: none;
-	clear:both;
+.gbul{
+	background-image:url("../image/gbul.png");
+	width:0.3%;	
+	height:22px; 
+	float:right;
 
 }
-/********************/
+
+/****************************divpic************************************/
+/*************bigPicture*******/
 .bgPic{
 	width:100%;
-    margin-top:2%;
+	    overflow: hidden;
+	    margin-top: 15%;
 }
 .divLeft{
 	background-image:url("../image/1.jpg");
@@ -136,4 +188,144 @@ a{
 	height: 100px;
 	width:80%;
 	background-repeat: no-repeat;
+	opacity: 0.9;
+		 direction: rtl;
+}
+/*************************smallPic***************************/
+ .smPic{
+   	overflow: hidden;
+   	margin-top: 3%;
+   	}
+.picPic1{
+	background-image:url("../image/basic.png");
+	width:30%;
+	height: 220px;
+	float: left;
+	margin-right:5%;
+	background-repeat: no-repeat;
+}
+.picPic2{
+	background-image:url("../image/basic.png");
+	width:30%;
+	height: 220px;
+	float: left;
+	background-repeat: no-repeat;
+}
+.picPic3{
+	background-image:url("../image/basic.png");
+	width:30%;
+	height: 220px;
+	float: left;
+	background-repeat: no-repeat;
+	margin-left:5%;
+}
+.texPic{
+	text-align: right;
+	margin-right:3%;
+	margin-top:3%;
+	font-weight: bold;
+	font-size: 92%;
+}
+.allin{
+	float: right;
+	margin-top: 8%;
+	margin-right:2%;
+	width:100%;
+}
+.alBbut{
+	width: 30%;
+	float: right;
+}
+.image12{
+	width:100%;
+	margin-top:10%;
+	margin-left:4%;
+	
+}
+.al1{
+	 margin-bottom: 8px;
+	 margin-right: 30%;
+}
+.alBbut ul li a{
+	color:black;
+    text-decoration: underline;
+    text-align:right;
+    direction: rtl;
+}
+.mapPic{
+	float: left;
+	margin-left: 16%;
+}
+.picPic2{
+	    height: 220px;
+}
+.hez{
+	margin-right:12%;
+	margin-left:12%
+	
+}
+/*************************************/
+.picPic2{
+		overflow: hidden;
+}
+.picbut{
+	margin-top:10%;
+		font-size: 92%;
+	
+}
+.picbut a{
+	color:black;
+	text-decoration: underline;
+	 direction: rtl;
+	 text-align:left;
+}
+/************************************/
+.picPic3{
+		overflow: hidden;
+}
+.picbut{
+	margin-top:10%;
+		font-size: 92%;
+	
+}
+.picbut a{
+	color:black;
+	text-decoration: underline;
+	 direction: rtl;
+	 text-align:left;
+}
+/*************************footer***********/
+footer{
+		position:relative;
+		overflow: hidden;
+		margin-top:5%;
+	    width: 100%;
+	    background-color:rgb(128, 128, 128);
+		height: 46px;
+		float: right;
+		
+}
+.footer{
+	
+	float: right;
+	width:11%;
+}
+.footer1{
+	float: right;
+	width:20%;
+}
+.menudown{
+	float: right;
+	 font-weight: bold;
+	 width: 100%;
+}
+.menudown ul{
+margin-top:2%;
+}
+/*******************************divfoorecolor******************************/
+.footercolor{
+	margin-top:-5%;
+		background-color:rgb(128, 128, 128);
+			height: 55px;
+			width: 100%;
 }
